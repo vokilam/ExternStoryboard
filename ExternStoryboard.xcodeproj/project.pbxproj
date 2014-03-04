@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D8BD4C18C4E234009A8D26 /* UIViewController+ExternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8BD4B18C4E234009A8D26 /* UIViewController+ExternViewController.m */; };
+		00D8BD5218C4F8EA009A8D26 /* ExternModalStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8BD5118C4F8EA009A8D26 /* ExternModalStoryboardSegue.m */; };
+		00D8BD5718C4FC97009A8D26 /* UINavigationController+ExternStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8BD5618C4FC97009A8D26 /* UINavigationController+ExternStoryboard.m */; };
+		00D8BD5B18C5092A009A8D26 /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D8BD5A18C5092A009A8D26 /* TabOneViewController.m */; };
+		00DC917D18C667E0001BC932 /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC917C18C667E0001BC932 /* TabTwoViewController.m */; };
 		66F3AD2218224E9700DBD35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2118224E9700DBD35A /* Foundation.framework */; };
 		66F3AD2418224E9700DBD35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2318224E9700DBD35A /* CoreGraphics.framework */; };
 		66F3AD2618224E9700DBD35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F3AD2518224E9700DBD35A /* UIKit.framework */; };
@@ -20,12 +25,11 @@
 		66F3AD4518224E9700DBD35A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD4318224E9700DBD35A /* InfoPlist.strings */; };
 		66F3AD4718224E9700DBD35A /* ExternStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD4618224E9700DBD35A /* ExternStoryboardTests.m */; };
 		66F3AD5A18224F0E00DBD35A /* Extern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD5018224F0E00DBD35A /* Extern.storyboard */; };
-		66F3AD5B18224F0E00DBD35A /* ExternNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD5218224F0E00DBD35A /* ExternNavigationController.m */; };
 		66F3AD5C18224F0E00DBD35A /* ExternStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD5418224F0E00DBD35A /* ExternStoryboardSegue.m */; };
-		66F3AD5D18224F0E00DBD35A /* ExternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F3AD5618224F0E00DBD35A /* ExternViewController.m */; };
 		66F3AD5E18224F0E00DBD35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD5718224F0E00DBD35A /* Main.storyboard */; };
 		66F3AD5F18224F0E00DBD35A /* TabOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD5818224F0E00DBD35A /* TabOne.storyboard */; };
 		66F3AD6018224F0E00DBD35A /* TabTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F3AD5918224F0E00DBD35A /* TabTwo.storyboard */; };
+		B7EF15595F5E4EE3A86868E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7048DC0F88554019BD68DB77 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D8BD4A18C4E234009A8D26 /* UIViewController+ExternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ExternViewController.h"; sourceTree = "<group>"; };
+		00D8BD4B18C4E234009A8D26 /* UIViewController+ExternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ExternViewController.m"; sourceTree = "<group>"; };
+		00D8BD5018C4F8EA009A8D26 /* ExternModalStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternModalStoryboardSegue.h; sourceTree = "<group>"; };
+		00D8BD5118C4F8EA009A8D26 /* ExternModalStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternModalStoryboardSegue.m; sourceTree = "<group>"; };
+		00D8BD5518C4FC97009A8D26 /* UINavigationController+ExternStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ExternStoryboard.h"; sourceTree = "<group>"; };
+		00D8BD5618C4FC97009A8D26 /* UINavigationController+ExternStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ExternStoryboard.m"; sourceTree = "<group>"; };
+		00D8BD5918C5092A009A8D26 /* TabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneViewController.h; sourceTree = "<group>"; };
+		00D8BD5A18C5092A009A8D26 /* TabOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneViewController.m; sourceTree = "<group>"; };
+		00DC917B18C667E0001BC932 /* TabTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabTwoViewController.h; sourceTree = "<group>"; };
+		00DC917C18C667E0001BC932 /* TabTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
+		3CD6A9A4D96045C993157812 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		66F3AD1E18224E9700DBD35A /* ExternStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExternStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F3AD2118224E9700DBD35A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66F3AD2318224E9700DBD35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,15 +71,12 @@
 		66F3AD4418224E9700DBD35A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66F3AD4618224E9700DBD35A /* ExternStoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternStoryboardTests.m; sourceTree = "<group>"; };
 		66F3AD5018224F0E00DBD35A /* Extern.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Extern.storyboard; sourceTree = "<group>"; };
-		66F3AD5118224F0E00DBD35A /* ExternNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternNavigationController.h; sourceTree = "<group>"; };
-		66F3AD5218224F0E00DBD35A /* ExternNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternNavigationController.m; sourceTree = "<group>"; };
 		66F3AD5318224F0E00DBD35A /* ExternStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternStoryboardSegue.h; sourceTree = "<group>"; };
 		66F3AD5418224F0E00DBD35A /* ExternStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternStoryboardSegue.m; sourceTree = "<group>"; };
-		66F3AD5518224F0E00DBD35A /* ExternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternViewController.h; sourceTree = "<group>"; };
-		66F3AD5618224F0E00DBD35A /* ExternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternViewController.m; sourceTree = "<group>"; };
 		66F3AD5718224F0E00DBD35A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		66F3AD5818224F0E00DBD35A /* TabOne.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabOne.storyboard; sourceTree = "<group>"; };
 		66F3AD5918224F0E00DBD35A /* TabTwo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabTwo.storyboard; sourceTree = "<group>"; };
+		7048DC0F88554019BD68DB77 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 				66F3AD2418224E9700DBD35A /* CoreGraphics.framework in Frameworks */,
 				66F3AD2618224E9700DBD35A /* UIKit.framework in Frameworks */,
 				66F3AD2218224E9700DBD35A /* Foundation.framework in Frameworks */,
+				B7EF15595F5E4EE3A86868E4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +104,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D8BD5318C4F924009A8D26 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				66F3AD5318224F0E00DBD35A /* ExternStoryboardSegue.h */,
+				66F3AD5418224F0E00DBD35A /* ExternStoryboardSegue.m */,
+				00D8BD5018C4F8EA009A8D26 /* ExternModalStoryboardSegue.h */,
+				00D8BD5118C4F8EA009A8D26 /* ExternModalStoryboardSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		00D8BD5418C4F92E009A8D26 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				00D8BD4A18C4E234009A8D26 /* UIViewController+ExternViewController.h */,
+				00D8BD4B18C4E234009A8D26 /* UIViewController+ExternViewController.m */,
+				00D8BD5518C4FC97009A8D26 /* UINavigationController+ExternStoryboard.h */,
+				00D8BD5618C4FC97009A8D26 /* UINavigationController+ExternStoryboard.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		00D8BD5818C50913009A8D26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00D8BD5918C5092A009A8D26 /* TabOneViewController.h */,
+				00D8BD5A18C5092A009A8D26 /* TabOneViewController.m */,
+				00DC917B18C667E0001BC932 /* TabTwoViewController.h */,
+				00DC917C18C667E0001BC932 /* TabTwoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		66F3AD1518224E9700DBD35A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +144,7 @@
 				66F3AD4018224E9700DBD35A /* ExternStoryboardTests */,
 				66F3AD2018224E9700DBD35A /* Frameworks */,
 				66F3AD1F18224E9700DBD35A /* Products */,
+				3CD6A9A4D96045C993157812 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +164,7 @@
 				66F3AD2318224E9700DBD35A /* CoreGraphics.framework */,
 				66F3AD2518224E9700DBD35A /* UIKit.framework */,
 				66F3AD3A18224E9700DBD35A /* XCTest.framework */,
+				7048DC0F88554019BD68DB77 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,12 +225,9 @@
 		66F3AD6218224F1F00DBD35A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				66F3AD5118224F0E00DBD35A /* ExternNavigationController.h */,
-				66F3AD5218224F0E00DBD35A /* ExternNavigationController.m */,
-				66F3AD5318224F0E00DBD35A /* ExternStoryboardSegue.h */,
-				66F3AD5418224F0E00DBD35A /* ExternStoryboardSegue.m */,
-				66F3AD5518224F0E00DBD35A /* ExternViewController.h */,
-				66F3AD5618224F0E00DBD35A /* ExternViewController.m */,
+				00D8BD5818C50913009A8D26 /* Controllers */,
+				00D8BD5418C4F92E009A8D26 /* Categories */,
+				00D8BD5318C4F924009A8D26 /* Segues */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -194,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66F3AD4A18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboard" */;
 			buildPhases = (
+				D848B18975F744A08D4BDB37 /* Check Pods Manifest.lock */,
 				66F3AD1A18224E9700DBD35A /* Sources */,
 				66F3AD1B18224E9700DBD35A /* Frameworks */,
 				66F3AD1C18224E9700DBD35A /* Resources */,
+				202E06A737EF4FFFAE096D0D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,16 +328,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		202E06A737EF4FFFAE096D0D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D848B18975F744A08D4BDB37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66F3AD1A18224E9700DBD35A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F3AD5B18224F0E00DBD35A /* ExternNavigationController.m in Sources */,
-				66F3AD5D18224F0E00DBD35A /* ExternViewController.m in Sources */,
 				66F3AD3218224E9700DBD35A /* AppDelegate.m in Sources */,
+				00DC917D18C667E0001BC932 /* TabTwoViewController.m in Sources */,
+				00D8BD5218C4F8EA009A8D26 /* ExternModalStoryboardSegue.m in Sources */,
+				00D8BD4C18C4E234009A8D26 /* UIViewController+ExternViewController.m in Sources */,
 				66F3AD5C18224F0E00DBD35A /* ExternStoryboardSegue.m in Sources */,
 				66F3AD2E18224E9700DBD35A /* main.m in Sources */,
+				00D8BD5B18C5092A009A8D26 /* TabOneViewController.m in Sources */,
+				00D8BD5718C4FC97009A8D26 /* UINavigationController+ExternStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +489,7 @@
 		};
 		66F3AD4B18224E9700DBD35A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD6A9A4D96045C993157812 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -419,6 +503,7 @@
 		};
 		66F3AD4C18224E9700DBD35A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD6A9A4D96045C993157812 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -491,6 +576,7 @@
 				66F3AD4C18224E9700DBD35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66F3AD4D18224E9700DBD35A /* Build configuration list for PBXNativeTarget "ExternStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +585,7 @@
 				66F3AD4F18224E9700DBD35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

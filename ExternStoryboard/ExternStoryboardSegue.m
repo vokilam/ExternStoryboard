@@ -7,11 +7,11 @@
 //
 
 #import "ExternStoryboardSegue.h"
-#import "ExternViewController.h"
+#import "UIViewController+ExternViewController.h"
 
 @implementation ExternStoryboardSegue
 
-- (id)initWithIdentifier:(NSString *)identifier source:(UIViewController *)source destination:(ExternViewController *)destination
+- (id)initWithIdentifier:(NSString *)identifier source:(UIViewController *)source destination:(UIViewController *)destination
 {
     NSAssert(destination.storyboardName, @"storyboardName is required");
     
