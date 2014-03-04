@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/nobre84/ExternStoryboard.git", :tag => s.version.to_s }
 
-  s.source_files = 'UI*.{h,m}', 'Extern*.{h,m}'
+  s.source_files = 'ExternStoryboard/UI*.{h,m}', 'ExternStoryboard/Extern*.{h,m}'
   s.requires_arc = true
 
   s.dependency 'ObjcAssociatedObjectHelpers', '~> 1.2.0'
