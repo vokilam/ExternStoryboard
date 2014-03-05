@@ -14,15 +14,16 @@ Inspired by [RBStoryboardLink][1].
 Installation
 ================
 
-Preferred install method via CocoaPods
+Preferred install method via [CocoaPods](http://cocoapods.org/) - its easy!
+
 `pod 'ExternStoryboard'`
 
-[Learn more](http://cocoapods.org/) - its easy!
+
 
 Otherwise you can clone the repository and manually copy the dependencies:
 - Sample/Pods/ExternStoryboard ([this](https://github.com/nobre84/ExternStoryboard))
-- Sample/Pods/JRSwizzle ([see more](https://github.com/rentzsch/jrswizzle))
-- Sample/Pods/ObjcAssociatedObjectHelpers ([see more](https://github.com/itsthejb/ObjcAssociatedObjectHelpers))
+- Sample/Pods/JRSwizzle ([learn more](https://github.com/rentzsch/jrswizzle))
+- Sample/Pods/ObjcAssociatedObjectHelpers ([learn more](https://github.com/itsthejb/ObjcAssociatedObjectHelpers))
 
 Usage
 ==============
