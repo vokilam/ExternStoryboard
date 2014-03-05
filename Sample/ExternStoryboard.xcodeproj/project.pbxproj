@@ -10,7 +10,6 @@
 		0041FE7118C6C42300720D02 /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE6E18C6C42300720D02 /* TabOneViewController.m */; };
 		0041FE7218C6C42300720D02 /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7018C6C42300720D02 /* TabTwoViewController.m */; };
 		0041FE7618C6C43600720D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7418C6C43600720D02 /* AppDelegate.m */; };
-		0041FE7718C6C43600720D02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7518C6C43600720D02 /* Images.xcassets */; };
 		0041FE7B18C6C44300720D02 /* ExternStoryboard-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7818C6C44300720D02 /* ExternStoryboard-Info.plist */; };
 		0041FE7C18C6C44300720D02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041FE7A18C6C44300720D02 /* main.m */; };
 		0041FE7E18C6C44F00720D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0041FE7D18C6C44F00720D02 /* Main.storyboard */; };
@@ -45,7 +44,6 @@
 		0041FE7018C6C42300720D02 /* TabTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
 		0041FE7318C6C43600720D02 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0041FE7418C6C43600720D02 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0041FE7518C6C43600720D02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0041FE7818C6C44300720D02 /* ExternStoryboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExternStoryboard-Info.plist"; sourceTree = "<group>"; };
 		0041FE7918C6C44300720D02 /* ExternStoryboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExternStoryboard-Prefix.pch"; sourceTree = "<group>"; };
 		0041FE7A18C6C44300720D02 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				0041FE6A18C6BBCF00720D02 /* Controllers */,
 				0041FE7318C6C43600720D02 /* AppDelegate.h */,
 				0041FE7418C6C43600720D02 /* AppDelegate.m */,
-				0041FE7518C6C43600720D02 /* Images.xcassets */,
 				0041FE6818C6BB8E00720D02 /* Supporting Files */,
 				0041FE6918C6BBBE00720D02 /* Storyboards */,
 			);
@@ -266,7 +263,6 @@
 				0041FE8218C6C45C00720D02 /* Extern.storyboard in Resources */,
 				0041FE8418C6C45C00720D02 /* TabTwo.storyboard in Resources */,
 				0041FE8318C6C45C00720D02 /* TabOne.storyboard in Resources */,
-				0041FE7718C6C43600720D02 /* Images.xcassets in Resources */,
 				0041FE7E18C6C44F00720D02 /* Main.storyboard in Resources */,
 				0041FE7B18C6C44300720D02 /* ExternStoryboard-Info.plist in Resources */,
 			);

@@ -6,11 +6,11 @@ PODS:
   - ObjcAssociatedObjectHelpers (1.2.0)
 
 DEPENDENCIES:
-  - ExternStoryboard (from `~/Documents/ExternStoryboard/ExternStoryboard.podspec`)
+  - ExternStoryboard (from `https://github.com/nobre84/ExternStoryboard.git`)
 
 EXTERNAL SOURCES:
   ExternStoryboard:
-    :podspec: ~/Documents/ExternStoryboard/ExternStoryboard.podspec
+    :git: https://github.com/nobre84/ExternStoryboard.git
 
 SPEC CHECKSUMS:
   ExternStoryboard: a7faf1092ecbb3bf83f187f815799670d6035e97
