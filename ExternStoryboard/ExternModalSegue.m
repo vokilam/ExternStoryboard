@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Paul Malikov. All rights reserved.
 //
 
-#import "ExternModalStoryboardSegue.h"
+#import "ExternModalSegue.h"
 
-@implementation ExternModalStoryboardSegue
+@implementation ExternModalSegue
 
 - (void)perform {
     [self.sourceViewController presentViewController:self.destinationViewController animated:YES completion:nil];

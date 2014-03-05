@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Paul Malikov. All rights reserved.
 //
 
-#import "ExternStoryboardSegue.h"
+#import "ExternPushSegue.h"
 #import "UIViewController+ExternViewController.h"
 
-@implementation ExternStoryboardSegue
+@implementation ExternPushSegue
 
 - (id)initWithIdentifier:(NSString *)identifier source:(UIViewController *)source destination:(UIViewController *)destination
 {

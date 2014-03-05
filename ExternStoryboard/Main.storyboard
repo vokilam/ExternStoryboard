@@ -18,6 +18,7 @@
                     <connections>
                         <segue destination="I4G-2g-ESL" kind="relationship" relationship="viewControllers" id="zPJ-Ca-oYq"/>
                         <segue destination="G5c-qu-HYt" kind="relationship" relationship="viewControllers" id="zO8-Ll-8NO"/>
+                        <segue destination="TXd-kF-Pd6" kind="relationship" relationship="viewControllers" id="LSv-xI-QvD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOh-u0-AEQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -61,6 +62,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVV-wJ-14x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="519" y="-947"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="j5l-RO-tAv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TXd-kF-Pd6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Omk-C2-uPe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CGA-sv-vH8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="StoryboardName" value="External"/>
+                    </userDefinedRuntimeAttributes>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MBa-8M-Op1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="522"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

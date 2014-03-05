@@ -1,5 +1,5 @@
 //
-//  ExternStoryboardSegue.h
+//  AppDelegate.h
 //  test-segue-multiple-storiboards
 //
 //  Created by Paul Malikov on 10/31/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ExternStoryboardSegue : UIStoryboardSegue
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
