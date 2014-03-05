@@ -32,4 +32,6 @@ After you [break your storyboards into modules](http://robsprogramknowledge.blog
 - Creating a UINavigationController in the source storyboard and setting the User defined runtime attributes "storyboardName":"YourStoryboardName" and optionally a "sceneIdentifier":"YourSpecificVCIdentifier" to automatically load its Root View Controller from another Storyboard.
 - Using a extern push or extern modal segue to a blank view controller which declares the above runtime attributes, to transition to a View Controller in another Storyboard.
 
+See the demo app for more information, its seamless, a no-drawbacks solution that makes your work lighter, more reusable and team-friendly (avoid merge conflicts with modular storyboards that can be owned/maintained by single/few developers)
+
 
