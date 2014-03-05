@@ -1,5 +1,5 @@
 //
-//  UIViewController+ExternViewController.m
+//  RNExternPushSegue.m
 //  ExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
@@ -27,12 +27,12 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "UIViewController+ExternViewController.h"
-#import <ObjcAssociatedObjectHelpers.h>
+#import "RNExternPushSegue.h"
 
-@implementation UIViewController (ExternViewController)
+@implementation RNExternPushSegue
 
-SYNTHESIZE_ASC_OBJ(storyboardName, setStoryboardName);
-SYNTHESIZE_ASC_OBJ(sceneIdentifier, setSceneIdentifier);
+- (void)perform {
+    [[self.sourceViewController navigationController] pushViewController:self.destinationViewController animated:YES];
+}
 
 @end

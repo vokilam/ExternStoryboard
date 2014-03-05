@@ -1,5 +1,5 @@
 //
-//  UIViewController+ExternViewController.m
+//  ExternModalStoryboardSegue.h
 //  ExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
@@ -27,12 +27,9 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#import "UIViewController+ExternViewController.h"
-#import <ObjcAssociatedObjectHelpers.h>
+#import "RNExternPushSegue.h"
+#import "RNExternStoryboardSegue.h"
 
-@implementation UIViewController (ExternViewController)
-
-SYNTHESIZE_ASC_OBJ(storyboardName, setStoryboardName);
-SYNTHESIZE_ASC_OBJ(sceneIdentifier, setSceneIdentifier);
+@interface RNExternModalSegue : RNExternStoryboardSegue
 
 @end

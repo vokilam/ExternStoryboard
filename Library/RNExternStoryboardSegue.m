@@ -1,5 +1,5 @@
 //
-//  UIViewController+ExternViewController.m
+//  RNExternStoryboardSegue.m
 //  ExternStoryboard
 //
 //  Created by Rafael Nobre on 3/5/14.
@@ -27,12 +27,20 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+#import "RNExternStoryboardSegue.h"
 #import "UIViewController+ExternViewController.h"
-#import <ObjcAssociatedObjectHelpers.h>
 
-@implementation UIViewController (ExternViewController)
+@implementation RNExternStoryboardSegue
 
-SYNTHESIZE_ASC_OBJ(storyboardName, setStoryboardName);
-SYNTHESIZE_ASC_OBJ(sceneIdentifier, setSceneIdentifier);
+- (id)initWithIdentifier:(NSString *)identifier source:(UIViewController *)source destination:(UIViewController *)destination {
+    NSAssert(destination.storyboardName, @"storyboardName is required");
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:destination.storyboardName bundle:nil];
+    UIViewController *vc = destination.sceneIdentifier
+    ? [storyboard instantiateViewControllerWithIdentifier:destination.sceneIdentifier]
+    : [storyboard instantiateInitialViewController];
+    
+    return [super initWithIdentifier:identifier source:source destination:vc];
+}
 
 @end
