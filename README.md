@@ -15,14 +15,14 @@ Installation
 ================
 
 Preferred install method via CocoaPods
-`pod 'ExternStoryboard'
+`pod 'ExternStoryboard'`
 
 [Learn more](http://cocoapods.org/) - its easy!
 
 Otherwise you can clone the repository and manually copy the dependencies:
-- Sample/Pods/ExternStoryboard (this)
-- Sample/Pods/JRSwizzle (https://github.com/rentzsch/jrswizzle)
-- Sample/Pods/ObjcAssociatedObjectHelpers (https://github.com/itsthejb/ObjcAssociatedObjectHelpers)
+- Sample/Pods/ExternStoryboard ([this](https://github.com/nobre84/ExternStoryboard))
+- Sample/Pods/JRSwizzle ([see more](https://github.com/rentzsch/jrswizzle))
+- Sample/Pods/ObjcAssociatedObjectHelpers ([see more](https://github.com/itsthejb/ObjcAssociatedObjectHelpers))
 
 Usage
 ==============
