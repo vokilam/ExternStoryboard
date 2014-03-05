@@ -6,6 +6,12 @@
 // project.
 
 
+// ExternStoryboard
+#define COCOAPODS_POD_AVAILABLE_ExternStoryboard
+#define COCOAPODS_VERSION_MAJOR_ExternStoryboard 0
+#define COCOAPODS_VERSION_MINOR_ExternStoryboard 0
+#define COCOAPODS_VERSION_PATCH_ExternStoryboard 1
+
 // JRSwizzle
 #define COCOAPODS_POD_AVAILABLE_JRSwizzle
 #define COCOAPODS_VERSION_MAJOR_JRSwizzle 1

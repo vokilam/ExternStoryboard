@@ -1,2 +1,2 @@
 platform :ios, '6.0'
-pod 'ExternStoryboard', :podspec => '~/Documents/ExternStoryboard/ExternStoryboard.podspec'
+pod 'ExternStoryboard', :git => 'https://github.com/nobre84/ExternStoryboard.git'

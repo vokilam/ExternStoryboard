@@ -1,12 +1,19 @@
 PODS:
+  - ExternStoryboard (0.0.1):
+    - JRSwizzle (~> 1.0)
+    - ObjcAssociatedObjectHelpers (~> 1.2.0)
   - JRSwizzle (1.0)
   - ObjcAssociatedObjectHelpers (1.2.0)
 
 DEPENDENCIES:
-  - JRSwizzle (~> 1.0)
-  - ObjcAssociatedObjectHelpers (~> 1.2.0)
+  - ExternStoryboard (from `~/Documents/ExternStoryboard/ExternStoryboard.podspec`)
+
+EXTERNAL SOURCES:
+  ExternStoryboard:
+    :podspec: ~/Documents/ExternStoryboard/ExternStoryboard.podspec
 
 SPEC CHECKSUMS:
+  ExternStoryboard: a7faf1092ecbb3bf83f187f815799670d6035e97
   JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
   ObjcAssociatedObjectHelpers: 176a5f0cb81ae436b4f84b12e513962c32556f85
 
